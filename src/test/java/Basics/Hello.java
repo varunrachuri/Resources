@@ -2,7 +2,7 @@ package Basics;
 
 public class Hello
 {
-    public static void main(String[] args)
+   /* public static void main(String[] args)
     {
         int num1 = 10, num2 = 20;
         int add = num1 + num2;
@@ -14,4 +14,11 @@ public class Hello
         System.out.println("the multiplied value is = "+ mul);
         System.out.println("the division value is = "+ div);
     }
+    */
+    @test
+    void setup()
+    {
+        System.out.println("login");
+    }
+
 }
